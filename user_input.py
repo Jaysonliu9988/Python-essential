@@ -1,4 +1,3 @@
-print(max(4, 2, 5, 18))
 name = input('Enter your name: ')
 age = input('Enter your age: ')
 # print(name)
