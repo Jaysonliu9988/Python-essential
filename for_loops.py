@@ -22,6 +22,7 @@ for values in my_list:
         break
 
 print()
+print('-------- print ji --------')
 my_list2 = ['ji', 'ju', 'jk']
 
 for values in my_list2:
@@ -29,3 +30,15 @@ for values in my_list2:
     if values == 'ju':
         break
     print(values)
+
+print()
+print('--------- loop 0 to 9 ----------')
+for x in range(10):
+    print(x)
+
+print()
+print('------ loop 3 to 7  -------')
+for x in range(3, 7):
+    print(x)
+else: 
+    print('Finished looping!')
