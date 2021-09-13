@@ -1,0 +1,25 @@
+three_numbers = (1, 2, 3)
+print(three_numbers)
+print(three_numbers[0])
+print(type(three_numbers))
+print('')
+
+strings = ('home', 'land', 'earth')
+print(strings)
+print(type(strings))
+print()
+
+bool = (True, False, True)
+print(bool)
+print(type(bool))
+print()
+
+mix = (1, 'home', True, 5, False)
+print(mix)
+print(type(mix))
+print(type(mix[0]))
+print(type(mix[1]))
+print(type(mix[2]))
+
+tuple_constructor = tuple((1, 'home', True, 5, False))
+print(tuple_constructor)
