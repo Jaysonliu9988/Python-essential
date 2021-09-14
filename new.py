@@ -1,1 +1,4 @@
-print('This is the new line')
+class Student():
+    name = 'jason'
+    age = 34
+    gender = 'male'
