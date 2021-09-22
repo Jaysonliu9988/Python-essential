@@ -20,7 +20,7 @@ def showList(data):
         print('To Do List:')
         itemNum = 1
         for item in data:
-            print(f' {itemNum}) {item.restrip} \n')
+            print('  ' + str(itemNum) + ') ' + item.rstrip('\n'))
             itemNum += 1
 
 
@@ -45,9 +45,22 @@ def addToList(filename, data):
 # --- deleteFromList(filename, data), returns a list of strings ---
 # (prompt for item number to delete from the list of strings and write list to the file)
 def deleteFromList(filename, data):
+    num = input('Item number to delete: ')
+    try:
+        num = int(num)
+        num -= 1
+        del data[num]
+    except:
+        print('Invalid input - Nothing deleted.\n')
+        return data        
+
+    f = open(filename, 'w')
+    f.writelines(data)
+    f.close()
+
+    print('Item deleted from list.\n')
     return data
-
-
+        
 
 # --- main part of program ---
 FILENAME = 'list.txt' # define the filename used to store the list
