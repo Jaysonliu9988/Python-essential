@@ -1,1 +1,1 @@
-Learning magento
+Learning python
