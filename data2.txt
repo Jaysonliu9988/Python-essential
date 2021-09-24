@@ -1,0 +1,21 @@
+{
+  "name": "John Smith",
+  "age": 65,
+  "isMember": true,
+  "address": {
+    "street": "123 Example Road",
+    "suburb": "Mount Lawley",
+    "state": "WA",
+    "pcode": 6050
+  },
+  "children": [
+    {
+      "name": "Sue Smith",
+      "age": 14
+      }, 
+      {
+      "name": "Sam Smith",
+      "age": 21
+      } 
+  ]
+}
